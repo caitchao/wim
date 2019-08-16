@@ -45,7 +45,7 @@ function doSomething(){
   random = Math.floor(randomNum);
   randomImg = pictures[random];
   cap = captions[randomImg];
-  document.getElementById("tropeimg").src = randomImg;
+  document.getElementById("tropeimg1").src = randomImg;
   caption.text(cap);
   console.log("hello");
 }
